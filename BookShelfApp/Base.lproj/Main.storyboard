@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -10,6 +11,10 @@
             <string>Roboto-Light</string>
         </mutableArray>
         <mutableArray key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+            <string>Roboto-Regular</string>
+            <string>Roboto-Regular</string>
+            <string>Roboto-Regular</string>
             <string>Roboto-Regular</string>
         </mutableArray>
     </customFonts>
@@ -29,27 +34,88 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BookShelf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Igu-ag-cQO">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="40"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="108" y="120" width="185" height="47"/>
+                                </variation>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="poF-KI-7Li">
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="20" y="199" width="360" height="30"/>
+                                </variation>
                             </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AYH-lV-vf4">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="20" y="229" width="360" height="30"/>
+                                </variation>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g3p-lA-eXQ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.74509803921568629" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                <state key="normal" title="Sign In">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="20" y="289" width="360" height="31"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dk-Kn-nPa">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="20" y="770" width="360" height="30"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KtF-T6-3KH">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                <state key="normal" title="Forgot Password">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="143" y="360" width="115" height="30"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9dk-Kn-nPa" secondAttribute="bottom" id="0zP-vU-Wsg"/>
                             <constraint firstItem="poF-KI-7Li" firstAttribute="top" secondItem="Igu-ag-cQO" secondAttribute="bottom" constant="32" id="62C-Uk-LNB"/>
                             <constraint firstItem="Igu-ag-cQO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AcE-Qe-6Ze"/>
+                            <constraint firstItem="g3p-lA-eXQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AjC-vJ-z6c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g3p-lA-eXQ" secondAttribute="trailing" id="CrD-D3-dHE"/>
                             <constraint firstItem="Igu-ag-cQO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="Ic1-F8-e2G"/>
+                            <constraint firstItem="KtF-T6-3KH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ky2-mh-w5t"/>
+                            <constraint firstItem="AYH-lV-vf4" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="MH2-ci-fn5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9dk-Kn-nPa" secondAttribute="trailing" id="QEy-qh-S2S"/>
+                            <constraint firstItem="AYH-lV-vf4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="XWY-sp-fBb"/>
+                            <constraint firstItem="g3p-lA-eXQ" firstAttribute="top" secondItem="AYH-lV-vf4" secondAttribute="bottom" constant="30" id="YJX-Cz-2Ol"/>
                             <constraint firstAttribute="trailingMargin" secondItem="poF-KI-7Li" secondAttribute="trailing" id="htU-l3-W3l"/>
+                            <constraint firstItem="g3p-lA-eXQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ka5-YA-VzT"/>
                             <constraint firstItem="poF-KI-7Li" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lOs-sv-2Wk"/>
+                            <constraint firstItem="AYH-lV-vf4" firstAttribute="top" secondItem="poF-KI-7Li" secondAttribute="bottom" id="n3f-hG-xzE"/>
+                            <constraint firstItem="KtF-T6-3KH" firstAttribute="top" secondItem="g3p-lA-eXQ" secondAttribute="bottom" constant="40" id="t2R-eI-4ik"/>
+                            <constraint firstItem="9dk-Kn-nPa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="vcL-c7-uFi"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Igu-ag-cQO"/>
                                 <exclude reference="poF-KI-7Li"/>
+                                <exclude reference="AYH-lV-vf4"/>
+                                <exclude reference="g3p-lA-eXQ"/>
+                                <exclude reference="9dk-Kn-nPa"/>
+                                <exclude reference="KtF-T6-3KH"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="AcE-Qe-6Ze"/>
@@ -57,12 +123,28 @@
                                 <exclude reference="62C-Uk-LNB"/>
                                 <exclude reference="htU-l3-W3l"/>
                                 <exclude reference="lOs-sv-2Wk"/>
+                                <exclude reference="MH2-ci-fn5"/>
+                                <exclude reference="XWY-sp-fBb"/>
+                                <exclude reference="n3f-hG-xzE"/>
+                                <exclude reference="AjC-vJ-z6c"/>
+                                <exclude reference="CrD-D3-dHE"/>
+                                <exclude reference="YJX-Cz-2Ol"/>
+                                <exclude reference="ka5-YA-VzT"/>
+                                <exclude reference="Ky2-mh-w5t"/>
+                                <exclude reference="t2R-eI-4ik"/>
+                                <exclude reference="QEy-qh-S2S"/>
+                                <exclude reference="vcL-c7-uFi"/>
+                                <exclude reference="0zP-vU-Wsg"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Igu-ag-cQO"/>
                                 <include reference="poF-KI-7Li"/>
+                                <include reference="AYH-lV-vf4"/>
+                                <include reference="g3p-lA-eXQ"/>
+                                <include reference="9dk-Kn-nPa"/>
+                                <include reference="KtF-T6-3KH"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="AcE-Qe-6Ze"/>
@@ -70,9 +152,23 @@
                                 <include reference="62C-Uk-LNB"/>
                                 <include reference="htU-l3-W3l"/>
                                 <include reference="lOs-sv-2Wk"/>
+                                <include reference="MH2-ci-fn5"/>
+                                <include reference="XWY-sp-fBb"/>
+                                <include reference="n3f-hG-xzE"/>
+                                <include reference="AjC-vJ-z6c"/>
+                                <include reference="CrD-D3-dHE"/>
+                                <include reference="YJX-Cz-2Ol"/>
+                                <include reference="ka5-YA-VzT"/>
+                                <include reference="Ky2-mh-w5t"/>
+                                <include reference="t2R-eI-4ik"/>
+                                <include reference="QEy-qh-S2S"/>
+                                <include reference="vcL-c7-uFi"/>
+                                <include reference="0zP-vU-Wsg"/>
                             </mask>
                         </variation>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
