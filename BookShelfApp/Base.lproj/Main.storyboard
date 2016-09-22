@@ -3,10 +3,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="Roboto-Light.ttf">
             <string>Roboto-Light</string>
+        </mutableArray>
+        <mutableArray key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -28,28 +32,44 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="poF-KI-7Li">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="poF-KI-7Li" firstAttribute="top" secondItem="Igu-ag-cQO" secondAttribute="bottom" constant="32" id="62C-Uk-LNB"/>
                             <constraint firstItem="Igu-ag-cQO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AcE-Qe-6Ze"/>
                             <constraint firstItem="Igu-ag-cQO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="Ic1-F8-e2G"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="poF-KI-7Li" secondAttribute="trailing" id="htU-l3-W3l"/>
+                            <constraint firstItem="poF-KI-7Li" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lOs-sv-2Wk"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Igu-ag-cQO"/>
+                                <exclude reference="poF-KI-7Li"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="AcE-Qe-6Ze"/>
                                 <exclude reference="Ic1-F8-e2G"/>
+                                <exclude reference="62C-Uk-LNB"/>
+                                <exclude reference="htU-l3-W3l"/>
+                                <exclude reference="lOs-sv-2Wk"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Igu-ag-cQO"/>
+                                <include reference="poF-KI-7Li"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="AcE-Qe-6Ze"/>
                                 <include reference="Ic1-F8-e2G"/>
+                                <include reference="62C-Uk-LNB"/>
+                                <include reference="htU-l3-W3l"/>
+                                <include reference="lOs-sv-2Wk"/>
                             </mask>
                         </variation>
                     </view>
