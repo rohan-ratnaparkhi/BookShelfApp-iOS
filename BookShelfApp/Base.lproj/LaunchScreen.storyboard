@@ -4,6 +4,11 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Roboto-Light.ttf">
+            <string>Roboto-Light</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
@@ -20,32 +25,29 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="lrl-nq-UhQ">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BOOKSHELF" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hU-rF-ftA">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="32"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BookShelf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZb-78-RgS">
+                                <rect key="frame" x="211" y="277" width="178" height="47"/>
+                                <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="40"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="0hU-rF-ftA" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="GJ3-xy-cGB"/>
+                            <constraint firstItem="kZb-78-RgS" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="BWa-OS-3dz"/>
                             <constraint firstItem="lrl-nq-UhQ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Qok-Ly-mEh"/>
                             <constraint firstAttribute="trailing" secondItem="lrl-nq-UhQ" secondAttribute="trailing" id="dUJ-Zg-nsj"/>
                             <constraint firstItem="lrl-nq-UhQ" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="epQ-aM-w8F"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="lrl-nq-UhQ" secondAttribute="bottom" id="gNj-Ke-XPn"/>
-                            <constraint firstItem="0hU-rF-ftA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jDg-2i-GdJ"/>
-                            <constraint firstItem="0hU-rF-ftA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kGJ-tL-doU"/>
                             <constraint firstItem="lrl-nq-UhQ" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="qVP-Aa-4a1"/>
                             <constraint firstItem="lrl-nq-UhQ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="rR9-iN-nd0"/>
-                            <constraint firstItem="0hU-rF-ftA" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="rSq-CV-rxB"/>
+                            <constraint firstItem="kZb-78-RgS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="skK-ra-sO2"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="lrl-nq-UhQ" secondAttribute="bottom" id="yJT-RC-SrT"/>
                             <constraint firstAttribute="trailing" secondItem="lrl-nq-UhQ" secondAttribute="trailing" id="zSc-dL-kc9"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="lrl-nq-UhQ"/>
-                                <exclude reference="0hU-rF-ftA"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="Qok-Ly-mEh"/>
@@ -54,10 +56,6 @@
                                 <exclude reference="qVP-Aa-4a1"/>
                                 <exclude reference="rR9-iN-nd0"/>
                                 <exclude reference="zSc-dL-kc9"/>
-                                <exclude reference="GJ3-xy-cGB"/>
-                                <exclude reference="jDg-2i-GdJ"/>
-                                <exclude reference="kGJ-tL-doU"/>
-                                <exclude reference="rSq-CV-rxB"/>
                                 <exclude reference="gNj-Ke-XPn"/>
                                 <exclude reference="yJT-RC-SrT"/>
                             </mask>
@@ -65,7 +63,6 @@
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="lrl-nq-UhQ"/>
-                                <include reference="0hU-rF-ftA"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="Qok-Ly-mEh"/>
@@ -74,10 +71,6 @@
                                 <include reference="qVP-Aa-4a1"/>
                                 <include reference="rR9-iN-nd0"/>
                                 <include reference="zSc-dL-kc9"/>
-                                <include reference="GJ3-xy-cGB"/>
-                                <include reference="jDg-2i-GdJ"/>
-                                <include reference="kGJ-tL-doU"/>
-                                <include reference="rSq-CV-rxB"/>
                                 <include reference="gNj-Ke-XPn"/>
                                 <include reference="yJT-RC-SrT"/>
                             </mask>
@@ -88,7 +81,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.5" y="375"/>
+            <point key="canvasLocation" x="52" y="375"/>
         </scene>
     </scenes>
     <resources>
