@@ -16,6 +16,10 @@
 		3EBABAE31D93E878001348CF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAE21D93E878001348CF /* SignUpViewController.swift */; };
 		3EBABAE51D94E35F001348CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAE41D94E35F001348CF /* Constants.swift */; };
 		3EBABAEA1D94EB22001348CF /* CustomNavigationBarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAE91D94EB22001348CF /* CustomNavigationBarProtocol.swift */; };
+		3EBABAEC1D94F0AF001348CF /* CommonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAEB1D94F0AF001348CF /* CommonUtil.swift */; };
+		3EBABAEE1D94F13F001348CF /* EmailValidationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAED1D94F13F001348CF /* EmailValidationProtocol.swift */; };
+		3EBABAF01D952AD4001348CF /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAEF1D952AD4001348CF /* Messages.swift */; };
+		3EBABAF21D952C64001348CF /* PasswordValidationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAF11D952C64001348CF /* PasswordValidationProtocol.swift */; };
 		3ED254DE1D93B8DA00B7F8F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED254DD1D93B8DA00B7F8F6 /* LoginViewController.swift */; };
 		3ED254E01D93CD6200B7F8F6 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ED254DF1D93CD6200B7F8F6 /* Roboto-Light.ttf */; };
 		3ED254E21D93CDB100B7F8F6 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ED254E11D93CDB100B7F8F6 /* Roboto-Medium.ttf */; };
@@ -46,6 +50,10 @@
 		3EBABAE21D93E878001348CF /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3EBABAE41D94E35F001348CF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3EBABAE91D94EB22001348CF /* CustomNavigationBarProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarProtocol.swift; sourceTree = "<group>"; };
+		3EBABAEB1D94F0AF001348CF /* CommonUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtil.swift; sourceTree = "<group>"; };
+		3EBABAED1D94F13F001348CF /* EmailValidationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailValidationProtocol.swift; sourceTree = "<group>"; };
+		3EBABAEF1D952AD4001348CF /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		3EBABAF11D952C64001348CF /* PasswordValidationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordValidationProtocol.swift; sourceTree = "<group>"; };
 		3ED254DD1D93B8DA00B7F8F6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3ED254DF1D93CD6200B7F8F6 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		3ED254E11D93CDB100B7F8F6 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
@@ -97,6 +105,8 @@
 				3EBABAE81D94E5CF001348CF /* Fonts */,
 				3E97A7151D8BCD1400814DE7 /* Main.storyboard */,
 				3EBABAE91D94EB22001348CF /* CustomNavigationBarProtocol.swift */,
+				3EBABAED1D94F13F001348CF /* EmailValidationProtocol.swift */,
+				3EBABAF11D952C64001348CF /* PasswordValidationProtocol.swift */,
 				3E97A7181D8BCD1400814DE7 /* Assets.xcassets */,
 				3E97A71A1D8BCD1400814DE7 /* LaunchScreen.storyboard */,
 				3E97A71D1D8BCD1400814DE7 /* Info.plist */,
@@ -127,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				3EBABAE41D94E35F001348CF /* Constants.swift */,
+				3EBABAEB1D94F0AF001348CF /* CommonUtil.swift */,
+				3EBABAEF1D952AD4001348CF /* Messages.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -246,11 +258,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EBABAE51D94E35F001348CF /* Constants.swift in Sources */,
+				3EBABAF01D952AD4001348CF /* Messages.swift in Sources */,
 				3ED254DE1D93B8DA00B7F8F6 /* LoginViewController.swift in Sources */,
 				3EBABAEA1D94EB22001348CF /* CustomNavigationBarProtocol.swift in Sources */,
 				3E97A7121D8BCD1400814DE7 /* AppDelegate.swift in Sources */,
 				3EBABAE31D93E878001348CF /* SignUpViewController.swift in Sources */,
+				3EBABAF21D952C64001348CF /* PasswordValidationProtocol.swift in Sources */,
+				3EBABAEE1D94F13F001348CF /* EmailValidationProtocol.swift in Sources */,
 				3EBABAE11D93E84E001348CF /* ForgotPasswordViewController.swift in Sources */,
+				3EBABAEC1D94F0AF001348CF /* CommonUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

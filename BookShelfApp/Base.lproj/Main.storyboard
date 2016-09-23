@@ -101,6 +101,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="20" y="279" width="360" height="40"/>
                                 </variation>
+                                <connections>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wvq-KI-DpV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dk-Kn-nPa">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -216,7 +219,8 @@
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
-                        <outlet property="tfEmail" destination="poF-KI-7Li" id="rYD-T4-yzf"/>
+                        <outlet property="tfEmail" destination="poF-KI-7Li" id="3HJ-L6-OFp"/>
+                        <outlet property="tfPassword" destination="AYH-lV-vf4" id="T9O-ea-W3b"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -414,7 +418,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bx3-SM-J8S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="222" y="945.75"/>
+            <point key="canvasLocation" x="1140" y="950.25"/>
         </scene>
         <!--Forgot Password View Controller-->
         <scene sceneID="ULb-Up-nve">
@@ -518,7 +522,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5MX-6w-rzr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1860" y="260.25"/>
+            <point key="canvasLocation" x="1923" y="761.25"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rLD-TQ-zzq">

@@ -8,11 +8,12 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, EmailValidationProtocol, PasswordValidationProtocol {
     
     let gradientLayer = CAGradientLayer()
     
     @IBOutlet weak var tfEmail: UITextField!
+    @IBOutlet weak var tfPassword: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,4 +35,21 @@ class LoginViewController: UIViewController {
         self.view.layer.addSublayer(gradientLayer)
     }
     
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        tfEmail.resignFirstResponder()
+        tfPassword.resignFirstResponder()
+    }
+    
+    @IBAction func login(sender: UIButton) {
+        let emailResult = validateEmail(tfEmail.text!)
+        let pwdResult = validatePassword(tfPassword.text!)
+        if emailResult != Messages.ValidationMessages.successMsg {
+            CommonUtil.displaySimpleAlert(self, title: "Error", message: emailResult)
+        } else if pwdResult != Messages.ValidationMessages.successMsg {
+            CommonUtil.displaySimpleAlert(self, title: "Error", message: pwdResult)
+        } else {
+//            go to home page
+        }
+        
+    }
 }
