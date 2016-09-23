@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6Z0-LI-QFi">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -125,7 +125,7 @@
                                     <rect key="frame" x="143" y="349" width="115" height="30"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="Fuu-e2-PYn" kind="presentation" modalTransitionStyle="crossDissolve" id="i65-OI-AbD"/>
+                                    <segue destination="Fuu-e2-PYn" kind="show" id="O53-hf-gUk"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -212,6 +212,7 @@
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="1ar-ho-zdf"/>
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
@@ -220,7 +221,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="222" y="260.25"/>
+            <point key="canvasLocation" x="1140" y="260.25"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="XLZ-br-jWq">
@@ -238,18 +239,12 @@
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="20" y="100" width="45" height="21"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Id" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBK-DC-H48">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="20" y="189" width="60" height="21"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TLL-HA-g9z">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
@@ -257,17 +252,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7od-hQ-1I5">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.0" green="0.74509803921568629" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
-                                <state key="normal" title="Sign Up">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="20" y="376" width="360" height="40"/>
-                                </variation>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Full Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="En5-8J-1qE">
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
                                 <constraints>
@@ -325,13 +309,20 @@
                                         <exclude reference="nsG-Ge-8Je"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="20" y="306" width="360" height="40"/>
+                                <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="nsG-Ge-8Je"/>
                                     </mask>
                                 </variation>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7od-hQ-1I5">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.74509803921568629" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -342,7 +333,6 @@
                             <constraint firstItem="7vk-8s-HU8" firstAttribute="trailing" secondItem="yTZ-pC-fUD" secondAttribute="trailingMargin" id="LpE-AR-CsB"/>
                             <constraint firstItem="FjY-e9-99l" firstAttribute="top" secondItem="aBK-DC-H48" secondAttribute="bottom" constant="10" id="OsB-WL-Lz1"/>
                             <constraint firstItem="En5-8J-1qE" firstAttribute="leading" secondItem="yTZ-pC-fUD" secondAttribute="leadingMargin" id="QUT-F3-McR"/>
-                            <constraint firstItem="yXv-DH-GUg" firstAttribute="top" secondItem="CMq-iM-jxa" secondAttribute="bottom" constant="100" id="TOo-wX-PHe"/>
                             <constraint firstItem="TLL-HA-g9z" firstAttribute="leading" secondItem="yTZ-pC-fUD" secondAttribute="leadingMargin" id="WrJ-zt-ys9"/>
                             <constraint firstItem="FjY-e9-99l" firstAttribute="leading" secondItem="yTZ-pC-fUD" secondAttribute="leadingMargin" id="YRQ-eq-3W1"/>
                             <constraint firstItem="7vk-8s-HU8" firstAttribute="leading" secondItem="yTZ-pC-fUD" secondAttribute="leadingMargin" id="aqc-UY-K6O"/>
@@ -354,20 +344,21 @@
                             <constraint firstAttribute="trailingMargin" secondItem="En5-8J-1qE" secondAttribute="trailing" id="mCO-4M-NcR"/>
                             <constraint firstItem="FjY-e9-99l" firstAttribute="trailing" secondItem="yTZ-pC-fUD" secondAttribute="trailingMargin" id="zTH-dE-YL2"/>
                             <constraint firstItem="7od-hQ-1I5" firstAttribute="top" secondItem="7vk-8s-HU8" secondAttribute="bottom" constant="30" id="zk0-SV-aRn"/>
+                            <constraint firstItem="yXv-DH-GUg" firstAttribute="top" secondItem="CMq-iM-jxa" secondAttribute="bottom" constant="60" id="ztK-29-m3d"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="yXv-DH-GUg"/>
                                 <exclude reference="aBK-DC-H48"/>
                                 <exclude reference="TLL-HA-g9z"/>
-                                <exclude reference="7od-hQ-1I5"/>
                                 <exclude reference="En5-8J-1qE"/>
                                 <exclude reference="FjY-e9-99l"/>
                                 <exclude reference="7vk-8s-HU8"/>
+                                <exclude reference="7od-hQ-1I5"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="InG-IT-X5g"/>
-                                <exclude reference="TOo-wX-PHe"/>
+                                <exclude reference="ztK-29-m3d"/>
                                 <exclude reference="GUI-W5-ug7"/>
                                 <exclude reference="QUT-F3-McR"/>
                                 <exclude reference="mCO-4M-NcR"/>
@@ -392,14 +383,14 @@
                                 <include reference="yXv-DH-GUg"/>
                                 <include reference="aBK-DC-H48"/>
                                 <include reference="TLL-HA-g9z"/>
-                                <include reference="7od-hQ-1I5"/>
                                 <include reference="En5-8J-1qE"/>
                                 <include reference="FjY-e9-99l"/>
                                 <include reference="7vk-8s-HU8"/>
+                                <include reference="7od-hQ-1I5"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="InG-IT-X5g"/>
-                                <include reference="TOo-wX-PHe"/>
+                                <include reference="ztK-29-m3d"/>
                                 <include reference="GUI-W5-ug7"/>
                                 <include reference="QUT-F3-McR"/>
                                 <include reference="mCO-4M-NcR"/>
@@ -441,9 +432,6 @@
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="40" y="100" width="320" height="41"/>
-                                </variation>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your email Id" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jPf-hX-F0z">
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
@@ -472,9 +460,6 @@
                                 <state key="normal" title="Send Email">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="20" y="228" width="360" height="40"/>
-                                </variation>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -483,8 +468,8 @@
                                 <variation key="heightClass=regular-widthClass=compact" constant="20"/>
                             </constraint>
                             <constraint firstItem="WyS-j9-AgK" firstAttribute="top" secondItem="jPf-hX-F0z" secondAttribute="bottom" constant="30" id="2Hz-hx-Ejj"/>
+                            <constraint firstItem="DzX-LQ-gck" firstAttribute="top" secondItem="RZc-pJ-qs1" secondAttribute="bottom" constant="60" id="4Ee-Kq-r48"/>
                             <constraint firstAttribute="trailingMargin" secondItem="WyS-j9-AgK" secondAttribute="trailing" id="NA8-Xp-wga"/>
-                            <constraint firstItem="DzX-LQ-gck" firstAttribute="top" secondItem="RZc-pJ-qs1" secondAttribute="bottom" constant="100" id="NWy-2Q-wfF"/>
                             <constraint firstItem="WyS-j9-AgK" firstAttribute="leading" secondItem="wWB-ti-NJd" secondAttribute="leadingMargin" id="R8T-YF-JSR"/>
                             <constraint firstItem="jPf-hX-F0z" firstAttribute="leading" secondItem="wWB-ti-NJd" secondAttribute="leadingMargin" id="d8j-pl-6Ss"/>
                             <constraint firstAttribute="trailingMargin" secondItem="DzX-LQ-gck" secondAttribute="trailing" id="eXL-uz-y08">
@@ -501,7 +486,7 @@
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="0X6-K7-TI5"/>
-                                <exclude reference="NWy-2Q-wfF"/>
+                                <exclude reference="4Ee-Kq-r48"/>
                                 <exclude reference="eXL-uz-y08"/>
                                 <exclude reference="d8j-pl-6Ss"/>
                                 <exclude reference="jew-9n-uRm"/>
@@ -519,7 +504,7 @@
                             </mask>
                             <mask key="constraints">
                                 <include reference="0X6-K7-TI5"/>
-                                <include reference="NWy-2Q-wfF"/>
+                                <include reference="4Ee-Kq-r48"/>
                                 <include reference="eXL-uz-y08"/>
                                 <include reference="d8j-pl-6Ss"/>
                                 <include reference="jew-9n-uRm"/>
@@ -533,7 +518,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5MX-6w-rzr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="934.5" y="260.25"/>
+            <point key="canvasLocation" x="1860" y="260.25"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rLD-TQ-zzq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Z0-LI-QFi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JO4-39-mrZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="bWC-Vj-OaX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ff9-NO-3l3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="222" y="260.25"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
 </document>

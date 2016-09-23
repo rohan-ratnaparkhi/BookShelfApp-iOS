@@ -14,6 +14,7 @@
 		3E97A7271D8BCD1400814DE7 /* BookShelfAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E97A7261D8BCD1400814DE7 /* BookShelfAppTests.swift */; };
 		3EBABAE11D93E84E001348CF /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAE01D93E84E001348CF /* ForgotPasswordViewController.swift */; };
 		3EBABAE31D93E878001348CF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAE21D93E878001348CF /* SignUpViewController.swift */; };
+		3EBABAE51D94E35F001348CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAE41D94E35F001348CF /* Constants.swift */; };
 		3ED254DE1D93B8DA00B7F8F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED254DD1D93B8DA00B7F8F6 /* LoginViewController.swift */; };
 		3ED254E01D93CD6200B7F8F6 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ED254DF1D93CD6200B7F8F6 /* Roboto-Light.ttf */; };
 		3ED254E21D93CDB100B7F8F6 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ED254E11D93CDB100B7F8F6 /* Roboto-Medium.ttf */; };
@@ -42,6 +43,7 @@
 		3E97A7281D8BCD1400814DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EBABAE01D93E84E001348CF /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		3EBABAE21D93E878001348CF /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3EBABAE41D94E35F001348CF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3ED254DD1D93B8DA00B7F8F6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3ED254DF1D93CD6200B7F8F6 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		3ED254E11D93CDB100B7F8F6 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				3ED254DD1D93B8DA00B7F8F6 /* LoginViewController.swift */,
 				3EBABAE01D93E84E001348CF /* ForgotPasswordViewController.swift */,
 				3EBABAE21D93E878001348CF /* SignUpViewController.swift */,
+				3EBABAE41D94E35F001348CF /* Constants.swift */,
 				3ED254E11D93CDB100B7F8F6 /* Roboto-Medium.ttf */,
 				3ED254E31D93CDBD00B7F8F6 /* Roboto-Regular.ttf */,
 				3ED254DF1D93CD6200B7F8F6 /* Roboto-Light.ttf */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EBABAE51D94E35F001348CF /* Constants.swift in Sources */,
 				3ED254DE1D93B8DA00B7F8F6 /* LoginViewController.swift in Sources */,
 				3E97A7121D8BCD1400814DE7 /* AppDelegate.swift in Sources */,
 				3EBABAE31D93E878001348CF /* SignUpViewController.swift in Sources */,
