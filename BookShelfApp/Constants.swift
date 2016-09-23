@@ -15,4 +15,8 @@ struct Constants {
         static let signUpTitle = "Sign Up"
     }
     
+    struct colors {
+        static let navigationBarBackgroundColor = UIColor.blackColor()
+        static let navigationBarForegroundColor = UIColor.whiteColor()
+    }
 }

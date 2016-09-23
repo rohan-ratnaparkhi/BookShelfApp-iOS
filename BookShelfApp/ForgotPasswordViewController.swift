@@ -8,12 +8,12 @@
 
 import UIKit
 
-class ForgotPasswordViewController: UIViewController {
+class ForgotPasswordViewController: UIViewController, CustomNavigationBarProtocol {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.setNavigationBarHidden(false, animated: true)
-        self.title = Constants.titles.forgotPwdTitle
+        displayCustomizeNavBar(self, title: Constants.titles.forgotPwdTitle)
+        
     }
     
     
