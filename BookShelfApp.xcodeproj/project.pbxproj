@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3E97A7121D8BCD1400814DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E97A7111D8BCD1400814DE7 /* AppDelegate.swift */; };
-		3E97A7171D8BCD1400814DE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E97A7151D8BCD1400814DE7 /* Main.storyboard */; };
+		3E97A7171D8BCD1400814DE7 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E97A7151D8BCD1400814DE7 /* Login.storyboard */; };
 		3E97A7191D8BCD1400814DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E97A7181D8BCD1400814DE7 /* Assets.xcassets */; };
 		3E97A71C1D8BCD1400814DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E97A71A1D8BCD1400814DE7 /* LaunchScreen.storyboard */; };
 		3E97A7271D8BCD1400814DE7 /* BookShelfAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E97A7261D8BCD1400814DE7 /* BookShelfAppTests.swift */; };
@@ -20,6 +20,11 @@
 		3EBABAEE1D94F13F001348CF /* EmailValidationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAED1D94F13F001348CF /* EmailValidationProtocol.swift */; };
 		3EBABAF01D952AD4001348CF /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAEF1D952AD4001348CF /* Messages.swift */; };
 		3EBABAF21D952C64001348CF /* PasswordValidationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAF11D952C64001348CF /* PasswordValidationProtocol.swift */; };
+		3EBABAF41D954197001348CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBABAF31D954197001348CF /* Main.storyboard */; };
+		3EBABAF61D954370001348CF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAF51D954370001348CF /* HomeViewController.swift */; };
+		3EBABAF81D9543CD001348CF /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAF71D9543CD001348CF /* TasksViewController.swift */; };
+		3EBABAFA1D9543E0001348CF /* AddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAF91D9543E0001348CF /* AddBookViewController.swift */; };
+		3EBABAFE1D954960001348CF /* TasksTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAFD1D954960001348CF /* TasksTableCell.swift */; };
 		3ED254DE1D93B8DA00B7F8F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED254DD1D93B8DA00B7F8F6 /* LoginViewController.swift */; };
 		3ED254E01D93CD6200B7F8F6 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ED254DF1D93CD6200B7F8F6 /* Roboto-Light.ttf */; };
 		3ED254E21D93CDB100B7F8F6 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ED254E11D93CDB100B7F8F6 /* Roboto-Medium.ttf */; };
@@ -39,7 +44,7 @@
 /* Begin PBXFileReference section */
 		3E97A70E1D8BCD1400814DE7 /* BookShelfApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookShelfApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E97A7111D8BCD1400814DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E97A7161D8BCD1400814DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E97A7161D8BCD1400814DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		3E97A7181D8BCD1400814DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E97A71B1D8BCD1400814DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E97A71D1D8BCD1400814DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +59,11 @@
 		3EBABAED1D94F13F001348CF /* EmailValidationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailValidationProtocol.swift; sourceTree = "<group>"; };
 		3EBABAEF1D952AD4001348CF /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 		3EBABAF11D952C64001348CF /* PasswordValidationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordValidationProtocol.swift; sourceTree = "<group>"; };
+		3EBABAF31D954197001348CF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3EBABAF51D954370001348CF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3EBABAF71D9543CD001348CF /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		3EBABAF91D9543E0001348CF /* AddBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
+		3EBABAFD1D954960001348CF /* TasksTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksTableCell.swift; sourceTree = "<group>"; };
 		3ED254DD1D93B8DA00B7F8F6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3ED254DF1D93CD6200B7F8F6 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		3ED254E11D93CDB100B7F8F6 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
@@ -103,7 +113,6 @@
 				3EBABAE61D94E579001348CF /* View */,
 				3EBABAE71D94E5A6001348CF /* Utils */,
 				3EBABAE81D94E5CF001348CF /* Fonts */,
-				3E97A7151D8BCD1400814DE7 /* Main.storyboard */,
 				3EBABAE91D94EB22001348CF /* CustomNavigationBarProtocol.swift */,
 				3EBABAED1D94F13F001348CF /* EmailValidationProtocol.swift */,
 				3EBABAF11D952C64001348CF /* PasswordValidationProtocol.swift */,
@@ -126,9 +135,8 @@
 		3EBABAE61D94E579001348CF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3ED254DD1D93B8DA00B7F8F6 /* LoginViewController.swift */,
-				3EBABAE01D93E84E001348CF /* ForgotPasswordViewController.swift */,
-				3EBABAE21D93E878001348CF /* SignUpViewController.swift */,
+				3EBABAFC1D95452A001348CF /* Main */,
+				3EBABAFB1D95450C001348CF /* Login */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -151,6 +159,29 @@
 				3ED254DF1D93CD6200B7F8F6 /* Roboto-Light.ttf */,
 			);
 			name = Fonts;
+			sourceTree = "<group>";
+		};
+		3EBABAFB1D95450C001348CF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3ED254DD1D93B8DA00B7F8F6 /* LoginViewController.swift */,
+				3EBABAE21D93E878001348CF /* SignUpViewController.swift */,
+				3EBABAE01D93E84E001348CF /* ForgotPasswordViewController.swift */,
+				3E97A7151D8BCD1400814DE7 /* Login.storyboard */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		3EBABAFC1D95452A001348CF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3EBABAF31D954197001348CF /* Main.storyboard */,
+				3EBABAF51D954370001348CF /* HomeViewController.swift */,
+				3EBABAF71D9543CD001348CF /* TasksViewController.swift */,
+				3EBABAFD1D954960001348CF /* TasksTableCell.swift */,
+				3EBABAF91D9543E0001348CF /* AddBookViewController.swift */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,12 +265,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EBABAF41D954197001348CF /* Main.storyboard in Resources */,
 				3ED254E41D93CDBD00B7F8F6 /* Roboto-Regular.ttf in Resources */,
 				3ED254E21D93CDB100B7F8F6 /* Roboto-Medium.ttf in Resources */,
 				3E97A71C1D8BCD1400814DE7 /* LaunchScreen.storyboard in Resources */,
 				3E97A7191D8BCD1400814DE7 /* Assets.xcassets in Resources */,
 				3ED254E01D93CD6200B7F8F6 /* Roboto-Light.ttf in Resources */,
-				3E97A7171D8BCD1400814DE7 /* Main.storyboard in Resources */,
+				3E97A7171D8BCD1400814DE7 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +292,14 @@
 				3EBABAE51D94E35F001348CF /* Constants.swift in Sources */,
 				3EBABAF01D952AD4001348CF /* Messages.swift in Sources */,
 				3ED254DE1D93B8DA00B7F8F6 /* LoginViewController.swift in Sources */,
+				3EBABAFA1D9543E0001348CF /* AddBookViewController.swift in Sources */,
 				3EBABAEA1D94EB22001348CF /* CustomNavigationBarProtocol.swift in Sources */,
 				3E97A7121D8BCD1400814DE7 /* AppDelegate.swift in Sources */,
+				3EBABAF81D9543CD001348CF /* TasksViewController.swift in Sources */,
 				3EBABAE31D93E878001348CF /* SignUpViewController.swift in Sources */,
 				3EBABAF21D952C64001348CF /* PasswordValidationProtocol.swift in Sources */,
+				3EBABAFE1D954960001348CF /* TasksTableCell.swift in Sources */,
+				3EBABAF61D954370001348CF /* HomeViewController.swift in Sources */,
 				3EBABAEE1D94F13F001348CF /* EmailValidationProtocol.swift in Sources */,
 				3EBABAE11D93E84E001348CF /* ForgotPasswordViewController.swift in Sources */,
 				3EBABAEC1D94F0AF001348CF /* CommonUtil.swift in Sources */,
@@ -289,12 +325,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3E97A7151D8BCD1400814DE7 /* Main.storyboard */ = {
+		3E97A7151D8BCD1400814DE7 /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3E97A7161D8BCD1400814DE7 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		3E97A71A1D8BCD1400814DE7 /* LaunchScreen.storyboard */ = {
