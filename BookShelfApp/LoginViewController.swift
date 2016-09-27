@@ -20,7 +20,7 @@ class LoginViewController: UIViewController, EmailValidationProtocol, PasswordVa
         addGradient()
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
@@ -28,19 +28,19 @@ class LoginViewController: UIViewController, EmailValidationProtocol, PasswordVa
    
     func addGradient() {
         gradientLayer.frame = self.view.bounds
-        let color1 = UIColor(red: 210/255, green: 210/255, blue: 210/255, alpha: 1.0).CGColor as CGColorRef
-        let color2 = UIColor.whiteColor().CGColor as CGColorRef
+        let color1 = UIColor(red: 210/255, green: 210/255, blue: 210/255, alpha: 1.0).cgColor as CGColor
+        let color2 = UIColor.white.cgColor as CGColor
         gradientLayer.colors = [color1, color2]
               gradientLayer.locations = [0.0, 1.0]
         self.view.layer.addSublayer(gradientLayer)
     }
     
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         tfEmail.resignFirstResponder()
         tfPassword.resignFirstResponder()
     }
     
-    @IBAction func login(sender: UIButton) {
+    @IBAction func login(_ sender: UIButton) {
         let emailResult = validateEmail(tfEmail.text!)
         let pwdResult = validatePassword(tfPassword.text!)
         if emailResult != Messages.ValidationMessages.successMsg {

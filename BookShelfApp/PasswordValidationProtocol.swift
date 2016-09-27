@@ -9,7 +9,7 @@
 protocol PasswordValidationProtocol { }
 
 extension PasswordValidationProtocol {
-    func validatePassword(pwd: String) -> String {
+    func validatePassword(_ pwd: String) -> String {
         if pwd.characters.count < 6 {
             return Messages.ValidationMessages.passwordIsSmall
         } else {

@@ -10,9 +10,9 @@ import UIKit
 
 struct CommonUtil {
     
-    static func displaySimpleAlert(viewCtrl: UIViewController, title: String, message: String){
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .Alert)
-        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
-        viewCtrl.presentViewController(alert, animated: true, completion: nil)
+    static func displaySimpleAlert(_ viewCtrl: UIViewController, title: String, message: String){
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        viewCtrl.present(alert, animated: true, completion: nil)
     }
 }

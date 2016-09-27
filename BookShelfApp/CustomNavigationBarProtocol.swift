@@ -13,7 +13,7 @@ protocol CustomNavigationBarProtocol {
 }
 
 extension CustomNavigationBarProtocol {
-    func displayCustomizeNavBar(controller: UIViewController, title: String){
+    func displayCustomizeNavBar(_ controller: UIViewController, title: String){
         controller.navigationController?.setNavigationBarHidden(false, animated: true)
         controller.navigationController?.navigationBar.barTintColor = Constants.colors.navigationBarBackgroundColor
         controller.title = title

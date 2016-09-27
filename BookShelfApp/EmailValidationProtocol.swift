@@ -11,10 +11,10 @@ import Foundation
 protocol EmailValidationProtocol { }
 
 extension EmailValidationProtocol {
-    func validateEmail(email: String) -> String {
+    func validateEmail(_ email: String) -> String {
         let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
         let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
-        if emailTest.evaluateWithObject(email) {
+        if emailTest.evaluate(with: email) {
             return Messages.ValidationMessages.successMsg
         } else {
             return Messages.ValidationMessages.invalidEmail

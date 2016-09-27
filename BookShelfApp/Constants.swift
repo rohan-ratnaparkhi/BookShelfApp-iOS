@@ -16,7 +16,7 @@ struct Constants {
     }
     
     struct colors {
-        static let navigationBarBackgroundColor = UIColor.blackColor()
-        static let navigationBarForegroundColor = UIColor.whiteColor()
+        static let navigationBarBackgroundColor = UIColor.black
+        static let navigationBarForegroundColor = UIColor.white
     }
 }
