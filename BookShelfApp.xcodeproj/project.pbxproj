@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		3E3568EE1D9A66050028E352 /* TasksTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3568ED1D9A66050028E352 /* TasksTableCellView.swift */; };
 		3E3569211D9A82B80028E352 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3569201D9A82B80028E352 /* Task.swift */; };
+		3E3569231D9B9E5E0028E352 /* NotificationTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3569221D9B9E5E0028E352 /* NotificationTableCellView.swift */; };
+		3E3569251D9B9EA80028E352 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3569241D9B9EA80028E352 /* NotificationViewController.swift */; };
+		3E3569271D9BB6580028E352 /* AppNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3569261D9BB6580028E352 /* AppNotification.swift */; };
 		3E97A7121D8BCD1400814DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E97A7111D8BCD1400814DE7 /* AppDelegate.swift */; };
 		3E97A7171D8BCD1400814DE7 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E97A7151D8BCD1400814DE7 /* Login.storyboard */; };
 		3E97A7191D8BCD1400814DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E97A7181D8BCD1400814DE7 /* Assets.xcassets */; };
@@ -45,6 +48,9 @@
 /* Begin PBXFileReference section */
 		3E3568ED1D9A66050028E352 /* TasksTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksTableCellView.swift; sourceTree = "<group>"; };
 		3E3569201D9A82B80028E352 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		3E3569221D9B9E5E0028E352 /* NotificationTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableCellView.swift; sourceTree = "<group>"; };
+		3E3569241D9B9EA80028E352 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		3E3569261D9BB6580028E352 /* AppNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNotification.swift; sourceTree = "<group>"; };
 		3E97A70E1D8BCD1400814DE7 /* BookShelfApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookShelfApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E97A7111D8BCD1400814DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E97A7161D8BCD1400814DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
@@ -94,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				3E3569201D9A82B80028E352 /* Task.swift */,
+				3E3569261D9BB6580028E352 /* AppNotification.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -189,7 +196,9 @@
 				3EBABAF31D954197001348CF /* Main.storyboard */,
 				3EBABAF51D954370001348CF /* HomeViewController.swift */,
 				3EBABAF71D9543CD001348CF /* TasksViewController.swift */,
+				3E3569241D9B9EA80028E352 /* NotificationViewController.swift */,
 				3E3568ED1D9A66050028E352 /* TasksTableCellView.swift */,
+				3E3569221D9B9E5E0028E352 /* NotificationTableCellView.swift */,
 				3EBABAF91D9543E0001348CF /* AddBookViewController.swift */,
 			);
 			name = Main;
@@ -304,8 +313,10 @@
 			files = (
 				3EBABAE51D94E35F001348CF /* Constants.swift in Sources */,
 				3EBABAF01D952AD4001348CF /* Messages.swift in Sources */,
+				3E3569271D9BB6580028E352 /* AppNotification.swift in Sources */,
 				3ED254DE1D93B8DA00B7F8F6 /* LoginViewController.swift in Sources */,
 				3EBABAFA1D9543E0001348CF /* AddBookViewController.swift in Sources */,
+				3E3569231D9B9E5E0028E352 /* NotificationTableCellView.swift in Sources */,
 				3EBABAEA1D94EB22001348CF /* CustomNavigationBarProtocol.swift in Sources */,
 				3E97A7121D8BCD1400814DE7 /* AppDelegate.swift in Sources */,
 				3EBABAF81D9543CD001348CF /* TasksViewController.swift in Sources */,
@@ -313,6 +324,7 @@
 				3E3569211D9A82B80028E352 /* Task.swift in Sources */,
 				3EBABAF21D952C64001348CF /* PasswordValidationProtocol.swift in Sources */,
 				3EBABAF61D954370001348CF /* HomeViewController.swift in Sources */,
+				3E3569251D9B9EA80028E352 /* NotificationViewController.swift in Sources */,
 				3EBABAEE1D94F13F001348CF /* EmailValidationProtocol.swift in Sources */,
 				3EBABAE11D93E84E001348CF /* ForgotPasswordViewController.swift in Sources */,
 				3E3568EE1D9A66050028E352 /* TasksTableCellView.swift in Sources */,
