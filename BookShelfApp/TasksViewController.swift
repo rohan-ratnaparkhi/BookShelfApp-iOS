@@ -44,11 +44,7 @@ class TasksViewController: UIViewController, UITableViewDataSource, UITableViewD
         tableCell.title.text = task.title
         tableCell.requestedByName.text = task.requestedBy
         tableCell.requestedOnDate.text = task.requestedOn
-//        if let url = NSURL(string: task.imgUrl) {
-//            if let data = NSData(contentsOf: url as URL) {
-//                tableCell.img.image = UIImage(data: data as Data)
-//            }
-//       }
+        //tableCell.img.image = UIImage(contentsOfFile: "tempBookImg")
         return tableCell
     }
     

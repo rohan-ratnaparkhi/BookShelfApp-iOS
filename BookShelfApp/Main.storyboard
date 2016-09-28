@@ -38,7 +38,7 @@
                                             <frame key="frameInset" width="375" height="115"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Drk-No-a2L">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tempBookImg" translatesAutoresizingMaskIntoConstraints="NO" id="Drk-No-a2L">
                                                     <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="65" id="h8B-9l-fyV"/>
@@ -224,7 +224,7 @@
                                             <frame key="frameInset" width="375" height="110"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Kee-r2-4ZD">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tempBookImg" translatesAutoresizingMaskIntoConstraints="NO" id="Kee-r2-4ZD">
                                                     <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="65" id="4xD-we-w5Y"/>
@@ -321,7 +321,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vBv-jE-fI4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="96" y="731.25"/>
+            <point key="canvasLocation" x="95.200000000000003" y="730.88455772113946"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Bd8-Ff-oGV">
@@ -351,5 +351,6 @@
         <image name="Notification" width="22" height="22"/>
         <image name="Reject" width="45" height="45"/>
         <image name="Task" width="22" height="22"/>
+        <image name="tempBookImg" width="200" height="300"/>
     </resources>
 </document>
