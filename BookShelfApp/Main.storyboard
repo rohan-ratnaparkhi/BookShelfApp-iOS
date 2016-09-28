@@ -31,11 +31,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="jWw-na-bbs" customClass="TasksTableCell" customModule="BookShelfApp" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TasksTableCellView" rowHeight="100" id="jWw-na-bbs" customClass="TasksTableCellView" customModule="BookShelfApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="400" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jWw-na-bbs" id="yBK-JF-VCr">
-                                            <frame key="frameInset" width="400" height="100"/>
+                                            <frame key="frameInset" width="400" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Drk-No-a2L">
@@ -81,7 +81,7 @@
                                                     <state key="normal" title="No"/>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="09 Mar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0R-3Y-L50">
-                                                    <frame key="frameInset" minX="329" minY="70" width="55" height="21"/>
+                                                    <frame key="frameInset" minX="318" minY="70" width="55" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="11"/>
                                                     <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -113,6 +113,13 @@
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="author" destination="6g6-xf-Dtz" id="6Ym-pT-KSd"/>
+                                            <outlet property="img" destination="Drk-No-a2L" id="vmL-mW-eRe"/>
+                                            <outlet property="requestedByName" destination="y2R-G5-U4B" id="JRB-Ol-C9C"/>
+                                            <outlet property="requestedOnDate" destination="f0R-3Y-L50" id="U6e-gW-hK9"/>
+                                            <outlet property="title" destination="9KG-NN-HYs" id="PNA-in-hKZ"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -130,6 +137,9 @@
                         </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="4jI-FS-56b"/>
+                    <connections>
+                        <outlet property="tableView" destination="f7V-mw-6UP" id="2zh-UH-01p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VIf-Yg-XuJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

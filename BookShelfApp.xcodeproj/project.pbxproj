@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3568EE1D9A66050028E352 /* TasksTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3568ED1D9A66050028E352 /* TasksTableCellView.swift */; };
+		3E3569211D9A82B80028E352 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3569201D9A82B80028E352 /* Task.swift */; };
 		3E97A7121D8BCD1400814DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E97A7111D8BCD1400814DE7 /* AppDelegate.swift */; };
 		3E97A7171D8BCD1400814DE7 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E97A7151D8BCD1400814DE7 /* Login.storyboard */; };
 		3E97A7191D8BCD1400814DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E97A7181D8BCD1400814DE7 /* Assets.xcassets */; };
@@ -24,7 +26,6 @@
 		3EBABAF61D954370001348CF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAF51D954370001348CF /* HomeViewController.swift */; };
 		3EBABAF81D9543CD001348CF /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAF71D9543CD001348CF /* TasksViewController.swift */; };
 		3EBABAFA1D9543E0001348CF /* AddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAF91D9543E0001348CF /* AddBookViewController.swift */; };
-		3EBABAFE1D954960001348CF /* TasksTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBABAFD1D954960001348CF /* TasksTableCell.swift */; };
 		3ED254DE1D93B8DA00B7F8F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED254DD1D93B8DA00B7F8F6 /* LoginViewController.swift */; };
 		3ED254E01D93CD6200B7F8F6 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ED254DF1D93CD6200B7F8F6 /* Roboto-Light.ttf */; };
 		3ED254E21D93CDB100B7F8F6 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ED254E11D93CDB100B7F8F6 /* Roboto-Medium.ttf */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E3568ED1D9A66050028E352 /* TasksTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksTableCellView.swift; sourceTree = "<group>"; };
+		3E3569201D9A82B80028E352 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		3E97A70E1D8BCD1400814DE7 /* BookShelfApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookShelfApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E97A7111D8BCD1400814DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E97A7161D8BCD1400814DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
@@ -63,7 +66,6 @@
 		3EBABAF51D954370001348CF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3EBABAF71D9543CD001348CF /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		3EBABAF91D9543E0001348CF /* AddBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
-		3EBABAFD1D954960001348CF /* TasksTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksTableCell.swift; sourceTree = "<group>"; };
 		3ED254DD1D93B8DA00B7F8F6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3ED254DF1D93CD6200B7F8F6 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		3ED254E11D93CDB100B7F8F6 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E35691F1D9A82A30028E352 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E3569201D9A82B80028E352 /* Task.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		3E97A7051D8BCD1400814DE7 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +119,7 @@
 		3E97A7101D8BCD1400814DE7 /* BookShelfApp */ = {
 			isa = PBXGroup;
 			children = (
+				3E35691F1D9A82A30028E352 /* Model */,
 				3E97A7111D8BCD1400814DE7 /* AppDelegate.swift */,
 				3EBABAE61D94E579001348CF /* View */,
 				3EBABAE71D94E5A6001348CF /* Utils */,
@@ -178,7 +189,7 @@
 				3EBABAF31D954197001348CF /* Main.storyboard */,
 				3EBABAF51D954370001348CF /* HomeViewController.swift */,
 				3EBABAF71D9543CD001348CF /* TasksViewController.swift */,
-				3EBABAFD1D954960001348CF /* TasksTableCell.swift */,
+				3E3568ED1D9A66050028E352 /* TasksTableCellView.swift */,
 				3EBABAF91D9543E0001348CF /* AddBookViewController.swift */,
 			);
 			name = Main;
@@ -299,11 +310,12 @@
 				3E97A7121D8BCD1400814DE7 /* AppDelegate.swift in Sources */,
 				3EBABAF81D9543CD001348CF /* TasksViewController.swift in Sources */,
 				3EBABAE31D93E878001348CF /* SignUpViewController.swift in Sources */,
+				3E3569211D9A82B80028E352 /* Task.swift in Sources */,
 				3EBABAF21D952C64001348CF /* PasswordValidationProtocol.swift in Sources */,
-				3EBABAFE1D954960001348CF /* TasksTableCell.swift in Sources */,
 				3EBABAF61D954370001348CF /* HomeViewController.swift in Sources */,
 				3EBABAEE1D94F13F001348CF /* EmailValidationProtocol.swift in Sources */,
 				3EBABAE11D93E84E001348CF /* ForgotPasswordViewController.swift in Sources */,
+				3E3568EE1D9A66050028E352 /* TasksTableCellView.swift in Sources */,
 				3EBABAEC1D94F0AF001348CF /* CommonUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

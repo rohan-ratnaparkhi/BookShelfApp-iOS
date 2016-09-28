@@ -19,4 +19,8 @@ struct Constants {
         static let navigationBarBackgroundColor = UIColor.black
         static let navigationBarForegroundColor = UIColor.white
     }
+    
+    struct urls{
+        static let tempImgUrl = ""
+    }
 }
