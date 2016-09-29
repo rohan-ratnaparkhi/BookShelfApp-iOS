@@ -12,6 +12,11 @@
 		3E3569231D9B9E5E0028E352 /* NotificationTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3569221D9B9E5E0028E352 /* NotificationTableCellView.swift */; };
 		3E3569251D9B9EA80028E352 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3569241D9B9EA80028E352 /* NotificationViewController.swift */; };
 		3E3569271D9BB6580028E352 /* AppNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3569261D9BB6580028E352 /* AppNotification.swift */; };
+		3E3569671D9D2BB00028E352 /* LeftSideNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3569661D9D2BB00028E352 /* LeftSideNavigationViewController.swift */; };
+		3E3569741D9D2C8D0028E352 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35696C1D9D2C8D0028E352 /* MMDrawerBarButtonItem.m */; };
+		3E3569751D9D2C8D0028E352 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E35696E1D9D2C8D0028E352 /* MMDrawerController.m */; };
+		3E3569761D9D2C8D0028E352 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3569711D9D2C8D0028E352 /* MMDrawerVisualState.m */; };
+		3E3569771D9D2C8D0028E352 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3569731D9D2C8D0028E352 /* UIViewController+MMDrawerController.m */; };
 		3E97A7121D8BCD1400814DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E97A7111D8BCD1400814DE7 /* AppDelegate.swift */; };
 		3E97A7171D8BCD1400814DE7 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E97A7151D8BCD1400814DE7 /* Login.storyboard */; };
 		3E97A7191D8BCD1400814DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E97A7181D8BCD1400814DE7 /* Assets.xcassets */; };
@@ -51,6 +56,17 @@
 		3E3569221D9B9E5E0028E352 /* NotificationTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableCellView.swift; sourceTree = "<group>"; };
 		3E3569241D9B9EA80028E352 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		3E3569261D9BB6580028E352 /* AppNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNotification.swift; sourceTree = "<group>"; };
+		3E3569661D9D2BB00028E352 /* LeftSideNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideNavigationViewController.swift; sourceTree = "<group>"; };
+		3E35696A1D9D2C8C0028E352 /* BookShelfApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookShelfApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		3E35696B1D9D2C8D0028E352 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		3E35696C1D9D2C8D0028E352 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		3E35696D1D9D2C8D0028E352 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		3E35696E1D9D2C8D0028E352 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		3E35696F1D9D2C8D0028E352 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		3E3569701D9D2C8D0028E352 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		3E3569711D9D2C8D0028E352 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		3E3569721D9D2C8D0028E352 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		3E3569731D9D2C8D0028E352 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
 		3E97A70E1D8BCD1400814DE7 /* BookShelfApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookShelfApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E97A7111D8BCD1400814DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E97A7161D8BCD1400814DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
@@ -105,6 +121,32 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		3E3569281D9D056C0028E352 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3EBABAE91D94EB22001348CF /* CustomNavigationBarProtocol.swift */,
+				3EBABAED1D94F13F001348CF /* EmailValidationProtocol.swift */,
+				3EBABAF11D952C64001348CF /* PasswordValidationProtocol.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		3E3569691D9D2C740028E352 /* MMDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				3E35696B1D9D2C8D0028E352 /* MMDrawerBarButtonItem.h */,
+				3E35696C1D9D2C8D0028E352 /* MMDrawerBarButtonItem.m */,
+				3E35696D1D9D2C8D0028E352 /* MMDrawerController.h */,
+				3E35696E1D9D2C8D0028E352 /* MMDrawerController.m */,
+				3E35696F1D9D2C8D0028E352 /* MMDrawerController+Subclass.h */,
+				3E3569701D9D2C8D0028E352 /* MMDrawerVisualState.h */,
+				3E3569711D9D2C8D0028E352 /* MMDrawerVisualState.m */,
+				3E3569721D9D2C8D0028E352 /* UIViewController+MMDrawerController.h */,
+				3E3569731D9D2C8D0028E352 /* UIViewController+MMDrawerController.m */,
+			);
+			name = MMDrawer;
+			sourceTree = "<group>";
+		};
 		3E97A7051D8BCD1400814DE7 = {
 			isa = PBXGroup;
 			children = (
@@ -126,17 +168,17 @@
 		3E97A7101D8BCD1400814DE7 /* BookShelfApp */ = {
 			isa = PBXGroup;
 			children = (
+				3E3569691D9D2C740028E352 /* MMDrawer */,
 				3E35691F1D9A82A30028E352 /* Model */,
 				3E97A7111D8BCD1400814DE7 /* AppDelegate.swift */,
 				3EBABAE61D94E579001348CF /* View */,
 				3EBABAE71D94E5A6001348CF /* Utils */,
 				3EBABAE81D94E5CF001348CF /* Fonts */,
-				3EBABAE91D94EB22001348CF /* CustomNavigationBarProtocol.swift */,
-				3EBABAED1D94F13F001348CF /* EmailValidationProtocol.swift */,
-				3EBABAF11D952C64001348CF /* PasswordValidationProtocol.swift */,
+				3E3569281D9D056C0028E352 /* Protocols */,
 				3E97A7181D8BCD1400814DE7 /* Assets.xcassets */,
 				3E97A71A1D8BCD1400814DE7 /* LaunchScreen.storyboard */,
 				3E97A71D1D8BCD1400814DE7 /* Info.plist */,
+				3E35696A1D9D2C8C0028E352 /* BookShelfApp-Bridging-Header.h */,
 			);
 			path = BookShelfApp;
 			sourceTree = "<group>";
@@ -196,6 +238,7 @@
 				3EBABAF31D954197001348CF /* Main.storyboard */,
 				3EBABAF51D954370001348CF /* HomeViewController.swift */,
 				3EBABAF71D9543CD001348CF /* TasksViewController.swift */,
+				3E3569661D9D2BB00028E352 /* LeftSideNavigationViewController.swift */,
 				3E3569241D9B9EA80028E352 /* NotificationViewController.swift */,
 				3E3568ED1D9A66050028E352 /* TasksTableCellView.swift */,
 				3E3569221D9B9E5E0028E352 /* NotificationTableCellView.swift */,
@@ -313,6 +356,7 @@
 			files = (
 				3EBABAE51D94E35F001348CF /* Constants.swift in Sources */,
 				3EBABAF01D952AD4001348CF /* Messages.swift in Sources */,
+				3E3569761D9D2C8D0028E352 /* MMDrawerVisualState.m in Sources */,
 				3E3569271D9BB6580028E352 /* AppNotification.swift in Sources */,
 				3ED254DE1D93B8DA00B7F8F6 /* LoginViewController.swift in Sources */,
 				3EBABAFA1D9543E0001348CF /* AddBookViewController.swift in Sources */,
@@ -321,12 +365,16 @@
 				3E97A7121D8BCD1400814DE7 /* AppDelegate.swift in Sources */,
 				3EBABAF81D9543CD001348CF /* TasksViewController.swift in Sources */,
 				3EBABAE31D93E878001348CF /* SignUpViewController.swift in Sources */,
+				3E3569671D9D2BB00028E352 /* LeftSideNavigationViewController.swift in Sources */,
 				3E3569211D9A82B80028E352 /* Task.swift in Sources */,
 				3EBABAF21D952C64001348CF /* PasswordValidationProtocol.swift in Sources */,
 				3EBABAF61D954370001348CF /* HomeViewController.swift in Sources */,
 				3E3569251D9B9EA80028E352 /* NotificationViewController.swift in Sources */,
 				3EBABAEE1D94F13F001348CF /* EmailValidationProtocol.swift in Sources */,
+				3E3569771D9D2C8D0028E352 /* UIViewController+MMDrawerController.m in Sources */,
+				3E3569751D9D2C8D0028E352 /* MMDrawerController.m in Sources */,
 				3EBABAE11D93E84E001348CF /* ForgotPasswordViewController.swift in Sources */,
+				3E3569741D9D2C8D0028E352 /* MMDrawerBarButtonItem.m in Sources */,
 				3E3568EE1D9A66050028E352 /* TasksTableCellView.swift in Sources */,
 				3EBABAEC1D94F0AF001348CF /* CommonUtil.swift in Sources */,
 			);
@@ -457,10 +505,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BookShelfApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.talentica.BookShelfApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BookShelfApp/BookShelfApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -469,10 +520,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BookShelfApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.talentica.BookShelfApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BookShelfApp/BookShelfApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
