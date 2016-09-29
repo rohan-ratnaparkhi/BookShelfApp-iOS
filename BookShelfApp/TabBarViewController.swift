@@ -1,18 +1,19 @@
 //
-//  HomeViewController.swift
+//  TabBarViewController.swift
 //  BookShelfApp
 //
-//  Created by Rohan Ratnaparkhi on 9/23/16.
+//  Created by Rohan Ratnaparkhi on 9/29/16.
 //  Copyright © 2016 Talentica. All rights reserved.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
-    
+class TabBarViewController: UITabBarController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
+
     }
-    
-        
+
+
 }

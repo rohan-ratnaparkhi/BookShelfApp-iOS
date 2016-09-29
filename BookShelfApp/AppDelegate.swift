@@ -12,13 +12,33 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+var centerContainer: MMDrawerController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
 //        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: Constants.colors.navigationBarForegroundColor]
         UINavigationBar.appearance().barStyle = .black
+        buildNavigationMenu()
         return true
+    }
+    
+    func buildNavigationMenu(){
+        
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let centerViewController = mainStoryboard.instantiateViewController(withIdentifier: "TabBarViewController") as! TabBarViewController
+        let leftViewController = mainStoryboard.instantiateViewController(withIdentifier: "LeftSideNavigationViewController") as! LeftSideNavigationViewController
+        
+        let leftSideNav = UINavigationController(rootViewController: leftViewController)
+        let centerNav = UINavigationController(rootViewController: centerViewController)
+        
+        centerContainer = MMDrawerController(center: centerNav, leftDrawerViewController: leftSideNav)
+        
+        centerContainer!.openDrawerGestureModeMask = MMOpenDrawerGestureMode.panningCenterView;
+        centerContainer!.closeDrawerGestureModeMask = MMCloseDrawerGestureMode.panningCenterView;
+        
+        self.window!.rootViewController = centerContainer
+        self.window!.makeKeyAndVisible()
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

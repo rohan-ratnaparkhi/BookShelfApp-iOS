@@ -357,10 +357,10 @@
             </objects>
             <point key="canvasLocation" x="-582" y="1422"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="Bd8-Ff-oGV">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="d2d-if-j78" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarViewController" automaticallyAdjustsScrollViewInsets="NO" id="d2d-if-j78" customClass="TabBarViewController" customModule="BookShelfApp" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="f7n-X3-txI">
                         <autoresizingMask key="autoresizingMask"/>
