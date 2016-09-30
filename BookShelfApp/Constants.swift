@@ -13,6 +13,7 @@ struct Constants {
     struct titles {
         static let forgotPwdTitle = "Forgot Password"
         static let signUpTitle = "Sign Up"
+        static let navigationDrawerMenu = "Categories"
     }
     
     struct colors {
