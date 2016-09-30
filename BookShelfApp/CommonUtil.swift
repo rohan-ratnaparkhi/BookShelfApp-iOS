@@ -15,4 +15,13 @@ struct CommonUtil {
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
         viewCtrl.present(alert, animated: true, completion: nil)
     }
+    
+    static func disableNavigationDrawer(){
+        //TODO - code to disable navigation drawer
+    }
+    
+    static func enableNavigationDrawer(){
+        //TODO - code to enable navigation drawer
+    }
+    
 }

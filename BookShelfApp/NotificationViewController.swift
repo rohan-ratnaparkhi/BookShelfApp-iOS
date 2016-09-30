@@ -20,6 +20,11 @@ class NotificationViewController: UIViewController, UITableViewDelegate, UITable
         self.tableView.dataSource = self
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        CommonUtil.disableNavigationDrawer()
+    }
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5

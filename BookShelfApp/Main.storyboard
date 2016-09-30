@@ -179,7 +179,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VIf-Yg-XuJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1791.2" y="730.88455772113946"/>
+            <point key="canvasLocation" x="830" y="731"/>
         </scene>
         <!--Add Book View Controller-->
         <scene sceneID="sdz-CP-crL">
@@ -218,7 +218,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="31X-wO-59r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2463.1999999999998" y="730.88455772113946"/>
+            <point key="canvasLocation" x="1508" y="731"/>
         </scene>
         <!--Notification View Controller-->
         <scene sceneID="ei7-Nk-Nyb">
@@ -318,7 +318,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xXd-bw-p0H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3120.8000000000002" y="730.88455772113946"/>
+            <point key="canvasLocation" x="2202" y="731"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="Z39-0Z-GnP">
@@ -333,7 +333,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="rTK-M0-TGM"/>
+                    <navigationItem key="navigationItem" id="si3-hl-6dH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vBv-jE-fI4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

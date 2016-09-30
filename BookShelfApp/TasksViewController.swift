@@ -21,6 +21,11 @@ class TasksViewController: UIViewController, UITableViewDataSource, UITableViewD
         printTaskList()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        CommonUtil.disableNavigationDrawer()
+    }
+    
     func populateTaskList(){
         for i in 0..<10 {
             taskList.append(Task(id: "\(i)", imgUrl: Constants.urls.tempImgUrl, title: "title asdfsdf sdfadsfdasfasdfsdfds \(i)", author: "author \(i) asdfsdfadsf asdf dasf adsf sadf sadf dsf ", requestedBy: "Rohan R. asdfdsaf adsf sadf das fsadf sdf", requestedOn: "20 Apr"))

@@ -14,5 +14,10 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
     }
     
-        
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        CommonUtil.enableNavigationDrawer()
+    }
+    
+
 }
