@@ -22,6 +22,7 @@ struct CommonUtil {
     
     static func enableNavigationDrawer(){
         //TODO - code to enable navigation drawer
+        
     }
     
 }

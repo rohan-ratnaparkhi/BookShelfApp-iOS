@@ -18,7 +18,7 @@ class LeftSideNavigationViewController: UIViewController, UITableViewDelegate, U
         super.viewDidLoad()
         self.tableView.delegate = self
         self.tableView.dataSource = self
-        // Do any additional setup after loading the view.
+        
     }
     
     

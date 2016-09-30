@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E046EBF1D9E7447005B68D8 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E046EBE1D9E7447005B68D8 /* HomeCollectionViewCell.swift */; };
+		3E046EC11D9E78DB005B68D8 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E046EC01D9E78DB005B68D8 /* Roboto-Bold.ttf */; };
 		3E3568EE1D9A66050028E352 /* TasksTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3568ED1D9A66050028E352 /* TasksTableCellView.swift */; };
 		3E3569211D9A82B80028E352 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3569201D9A82B80028E352 /* Task.swift */; };
 		3E3569231D9B9E5E0028E352 /* NotificationTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3569221D9B9E5E0028E352 /* NotificationTableCellView.swift */; };
@@ -52,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E046EBE1D9E7447005B68D8 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		3E046EC01D9E78DB005B68D8 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		3E3568ED1D9A66050028E352 /* TasksTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksTableCellView.swift; sourceTree = "<group>"; };
 		3E3569201D9A82B80028E352 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		3E3569221D9B9E5E0028E352 /* NotificationTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableCellView.swift; sourceTree = "<group>"; };
@@ -218,6 +222,7 @@
 			children = (
 				3ED254E11D93CDB100B7F8F6 /* Roboto-Medium.ttf */,
 				3ED254E31D93CDBD00B7F8F6 /* Roboto-Regular.ttf */,
+				3E046EC01D9E78DB005B68D8 /* Roboto-Bold.ttf */,
 				3ED254DF1D93CD6200B7F8F6 /* Roboto-Light.ttf */,
 			);
 			name = Fonts;
@@ -244,6 +249,7 @@
 				3E3569241D9B9EA80028E352 /* NotificationViewController.swift */,
 				3E3569781D9D323F0028E352 /* TabBarViewController.swift */,
 				3E3568ED1D9A66050028E352 /* TasksTableCellView.swift */,
+				3E046EBE1D9E7447005B68D8 /* HomeCollectionViewCell.swift */,
 				3E3569221D9B9E5E0028E352 /* NotificationTableCellView.swift */,
 				3EBABAF91D9543E0001348CF /* AddBookViewController.swift */,
 			);
@@ -339,6 +345,7 @@
 				3E97A71C1D8BCD1400814DE7 /* LaunchScreen.storyboard in Resources */,
 				3E97A7191D8BCD1400814DE7 /* Assets.xcassets in Resources */,
 				3ED254E01D93CD6200B7F8F6 /* Roboto-Light.ttf in Resources */,
+				3E046EC11D9E78DB005B68D8 /* Roboto-Bold.ttf in Resources */,
 				3E97A7171D8BCD1400814DE7 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,6 +384,7 @@
 				3EBABAEE1D94F13F001348CF /* EmailValidationProtocol.swift in Sources */,
 				3E3569771D9D2C8D0028E352 /* UIViewController+MMDrawerController.m in Sources */,
 				3E3569751D9D2C8D0028E352 /* MMDrawerController.m in Sources */,
+				3E046EBF1D9E7447005B68D8 /* HomeCollectionViewCell.swift in Sources */,
 				3EBABAE11D93E84E001348CF /* ForgotPasswordViewController.swift in Sources */,
 				3E3569741D9D2C8D0028E352 /* MMDrawerBarButtonItem.m in Sources */,
 				3E3568EE1D9A66050028E352 /* TasksTableCellView.swift in Sources */,

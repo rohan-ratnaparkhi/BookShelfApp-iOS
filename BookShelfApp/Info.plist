@@ -24,9 +24,10 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Roboto-Medium.tff</string>
-		<string>Roboto-Regular.tff</string>
-		<string>Roboto-Light.tff</string>
+		<string>Roboto-Medium.ttf</string>
+		<string>Roboto-Regular.ttf</string>
+		<string>Roboto-Light.ttf</string>
+		<string>Roboto-Bold.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
