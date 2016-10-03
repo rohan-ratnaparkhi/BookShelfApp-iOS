@@ -420,6 +420,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="si3-hl-6dH"/>
+                    <connections>
+                        <outlet property="collectionView" destination="kxS-iS-pYN" id="SeQ-wT-Box"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vBv-jE-fI4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
