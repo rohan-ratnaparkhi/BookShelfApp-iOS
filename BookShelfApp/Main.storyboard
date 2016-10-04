@@ -678,7 +678,8 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
@@ -694,6 +695,9 @@
                                         <state key="normal" title="I Want to Borrow">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="borrowBook:" destination="MF9-Uc-0bY" eventType="touchUpInside" id="TCM-6O-DGI"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -733,6 +737,24 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="1000"/>
+                    <connections>
+                        <outlet property="author" destination="SHP-9R-nKH" id="6kJ-u2-5gi"/>
+                        <outlet property="bindingType" destination="00k-Sx-FtD" id="Dmv-Ey-Lxp"/>
+                        <outlet property="bookCondition" destination="eUG-k4-KYe" id="DxG-jt-0S6"/>
+                        <outlet property="bookGenre" destination="WjR-mS-yBF" id="xxi-fV-5vF"/>
+                        <outlet property="bookImage" destination="G71-1N-cTf" id="ayT-IZ-NtX"/>
+                        <outlet property="bookLender" destination="tH0-zf-Uei" id="JnK-87-gca"/>
+                        <outlet property="bookTags" destination="XK9-cA-w6Z" id="gug-Ht-LGf"/>
+                        <outlet property="bookTitle" destination="V5E-MF-Cp8" id="Hix-fG-Fs2"/>
+                        <outlet property="btnBorrow" destination="e6l-Hp-ckG" id="wW2-dw-VWp"/>
+                        <outlet property="comments" destination="ZXQ-8e-9Rf" id="jSN-vD-zY7"/>
+                        <outlet property="edition" destination="QKG-Ba-ion" id="X1f-p1-59K"/>
+                        <outlet property="isbn10" destination="QfR-cg-HLh" id="Ywh-a1-Yxz"/>
+                        <outlet property="isbn13" destination="qmk-lQ-bNf" id="cbi-nM-Ncl"/>
+                        <outlet property="listPrice" destination="52M-DQ-eWr" id="2dS-Be-59z"/>
+                        <outlet property="publishedOn" destination="gRv-oZ-VUM" id="gsg-NW-rew"/>
+                        <outlet property="publisherName" destination="F2s-sz-VK6" id="DaW-Si-PC5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z0D-p3-UE8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
