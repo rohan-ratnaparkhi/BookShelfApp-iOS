@@ -11,6 +11,7 @@
 		3E046EC11D9E78DB005B68D8 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E046EC01D9E78DB005B68D8 /* Roboto-Bold.ttf */; };
 		3E046EC31DA2785A005B68D8 /* BookDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E046EC21DA2785A005B68D8 /* BookDetailsViewController.swift */; };
 		3E046EC51DA36BA1005B68D8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E046EC41DA36BA1005B68D8 /* CardView.swift */; };
+		3E046EC71DA613D8005B68D8 /* AddBookManuallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E046EC61DA613D8005B68D8 /* AddBookManuallyViewController.swift */; };
 		3E3568EE1D9A66050028E352 /* TasksTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3568ED1D9A66050028E352 /* TasksTableCellView.swift */; };
 		3E3569211D9A82B80028E352 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3569201D9A82B80028E352 /* Task.swift */; };
 		3E3569231D9B9E5E0028E352 /* NotificationTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3569221D9B9E5E0028E352 /* NotificationTableCellView.swift */; };
@@ -60,6 +61,7 @@
 		3E046EC01D9E78DB005B68D8 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		3E046EC21DA2785A005B68D8 /* BookDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailsViewController.swift; sourceTree = "<group>"; };
 		3E046EC41DA36BA1005B68D8 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3E046EC61DA613D8005B68D8 /* AddBookManuallyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBookManuallyViewController.swift; sourceTree = "<group>"; };
 		3E3568ED1D9A66050028E352 /* TasksTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksTableCellView.swift; sourceTree = "<group>"; };
 		3E3569201D9A82B80028E352 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		3E3569221D9B9E5E0028E352 /* NotificationTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableCellView.swift; sourceTree = "<group>"; };
@@ -248,6 +250,7 @@
 			children = (
 				3EBABAF31D954197001348CF /* Main.storyboard */,
 				3E046EC21DA2785A005B68D8 /* BookDetailsViewController.swift */,
+				3E046EC61DA613D8005B68D8 /* AddBookManuallyViewController.swift */,
 				3EBABAF51D954370001348CF /* HomeViewController.swift */,
 				3EBABAF71D9543CD001348CF /* TasksViewController.swift */,
 				3E3569661D9D2BB00028E352 /* LeftSideNavigationViewController.swift */,
@@ -394,6 +397,7 @@
 				3E3569751D9D2C8D0028E352 /* MMDrawerController.m in Sources */,
 				3E046EBF1D9E7447005B68D8 /* HomeCollectionViewCell.swift in Sources */,
 				3EBABAE11D93E84E001348CF /* ForgotPasswordViewController.swift in Sources */,
+				3E046EC71DA613D8005B68D8 /* AddBookManuallyViewController.swift in Sources */,
 				3E3569741D9D2C8D0028E352 /* MMDrawerBarButtonItem.m in Sources */,
 				3E3568EE1D9A66050028E352 /* TasksTableCellView.swift in Sources */,
 				3EBABAEC1D94F0AF001348CF /* CommonUtil.swift in Sources */,
